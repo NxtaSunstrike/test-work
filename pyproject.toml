@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "test-work"
+version = "0.1.0"
+description = ""
+authors = ["NxtaSunstrike <unixalle765@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.0"
+SQLAlchemy = "^2.0.35"
+asyncpg = "^0.29.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
